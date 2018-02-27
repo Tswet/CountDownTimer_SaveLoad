@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_custom_layout"
+              android:focusable="true"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Циклы"
+            android:textSize="25dp"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:id="@+id/timerAll"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_corner"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="2"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отдых между подходами"
+            android:textSize="25dp"
+            android:paddingTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/chrBigRestMin"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_corner"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="5"
+                android:textSize="40dp"/>\
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мин"
+                android:textSize="25dp"
+                android:padding="5dp"/>
+            <EditText
+                android:id="@+id/chrBigRestSec"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_corner"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="00"
+                android:textSize="40dp"
+                />\
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сек"
+                android:textSize="25dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Повторения"
+            android:textSize="25dp"
+            android:paddingTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/countEdu"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_corner"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="3"
+            android:textSize="40dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Подход"
+                    android:gravity="center"
+                    android:textSize="25dp"/>
+
+                <EditText
+                    android:id="@+id/chrEduc"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button_corner"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="15"
+                    android:textSize="40dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Отдых"
+                    android:textSize="25dp"/>
+
+
+                <EditText
+                    android:id="@+id/chrRest"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button_corner"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="15"
+                    android:textSize="40dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="@string/start_button"
+            android:textColor="@color/sButtoneText"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

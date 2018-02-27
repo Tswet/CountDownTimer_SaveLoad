@@ -1,0 +1,4 @@
+#Fri Feb 09 12:36:02 MSK 2018
+base.0=C\:\\Users\\Mikhail\\OneDrive\\App\\CountDownTimer_0.9.9 Service\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

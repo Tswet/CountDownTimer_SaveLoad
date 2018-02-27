@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg">#b0caef</color>
+    <color name="bg_workout">#b3bf04</color>
+    <color name="sButton">#4d97ea</color>
+    <color name="pButton">#bc7306</color>
+    <color name="fButton">#bc7306</color>
+    <color name="sButtoneText">#303F9F</color>
+    <color name="fButtoneText">#303F9F</color>
+    <color name="pButtoneText">#303F9F</color>
+    <color name="bgBrest">#5eaec9</color>
+    <color name="bgRest">#b7a9ea</color>
+    <color name="bgEd">#c7b75b04</color>
+
+</resources>
