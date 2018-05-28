@@ -38,6 +38,7 @@ public class TimerActivity extends Activity {
     public String pStatus;
     final ArrayList<ShowTimer> ar = new ArrayList<>();
     Tren mTREN;
+    Tren lTren;
 
 
     public static void setMBGLL(LinearLayout MBGLL) {
@@ -115,7 +116,11 @@ public class TimerActivity extends Activity {
 
         //получаем данные из Активити Мэйн
         Bundle b = getIntent().getExtras();
-        mTREN = (Tren) b.get(MainActivity.TREN);
+        lTren = (Tren) b.get(LoadActivity.LOAD_TREN);
+        if(lTren != null) {mTREN = lTren;}
+        else {
+            mTREN = (Tren) b.get(MainActivity.TREN);
+        }
 
         //получение ресурсов
         WORK = String.valueOf(this.getResources().getString(R.string.workout));

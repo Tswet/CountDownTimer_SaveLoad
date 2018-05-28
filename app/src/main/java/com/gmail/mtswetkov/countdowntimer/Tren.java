@@ -1,5 +1,7 @@
 package com.gmail.mtswetkov.countdowntimer;
 
+import android.widget.TextView;
+
 import java.io.Serializable;
 import java.util.UUID;
 
@@ -17,8 +19,9 @@ public class Tren implements Serializable {
     int bigRest;
     int bigRestSec;
 
-    public Tren(UUID mId, String mName, int timerAll, int countEdu, int educ, int rest, int bigRest, int bigRestSec) {
-        this.mId = mId;
+
+    public Tren(String mName, int timerAll, int countEdu, int educ, int rest, int bigRest, int bigRestSec) {
+        this.mId = UUID.randomUUID();
         this.mName = mName;
         this.timerAll = timerAll;
         this.countEdu = countEdu;
@@ -31,6 +34,8 @@ public class Tren implements Serializable {
     public Tren(){
 
     }
+
+    public UUID getmId() { return mId; }
 
     public int getTimerAll() {
         return timerAll;
@@ -79,4 +84,11 @@ public class Tren implements Serializable {
     public void setBigRestSec(int bigRestSec) {
         this.bigRestSec = bigRestSec;
     }
+
+    public void setName(String s) {
+        this.mName = s;
+    }
+
+    public String getName(){return mName;}
+
 }

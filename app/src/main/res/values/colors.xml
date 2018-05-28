@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="bg">#b0caef</color>
+    <color name="bg_field">#e2e9f2</color>
     <color name="bg_workout">#b3bf04</color>
     <color name="sButton">#4d97ea</color>
     <color name="pButton">#bc7306</color>
@@ -14,5 +15,5 @@
     <color name="bgBrest">#5eaec9</color>
     <color name="bgRest">#b7a9ea</color>
     <color name="bgEd">#c7b75b04</color>
-
+    <color name="sButton_new">#ffffff</color>
 </resources>
